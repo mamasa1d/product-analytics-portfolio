@@ -93,7 +93,7 @@ fig.update_layout(
     font=dict(family="Arial, sans-serif", size=12),
 )
 
-chart_html = fig.to_html(full_html=False, include_plotlyjs=True)
+chart_html = fig.to_html(full_html=False, include_plotlyjs="cdn")
 
 kpi_cards = f"""
 <div class="kpi-row">
