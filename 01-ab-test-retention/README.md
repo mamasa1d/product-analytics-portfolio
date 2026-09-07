@@ -26,16 +26,3 @@ bootstrap-доверительный интервал для разницы до
 не даёт, а недельное удержание стабильно просаживает (относительное падение ~4.4%). Перед
 финальным решением стоит ещё оценить влияние на монетизацию — здесь смотрела только
 retention.
-
-## Файлы
-
-- `cookie_cats_ab_test.ipynb` — код с выполненными ячейками
-- `data/cookie_cats.csv` — исходные данные
-- `charts/` — распределение раундов, retention по группам
-
-## Запуск
-
-```
-pip install pandas numpy scipy matplotlib jupyter
-jupyter nbconvert --to notebook --execute --inplace cookie_cats_ab_test.ipynb
-```
