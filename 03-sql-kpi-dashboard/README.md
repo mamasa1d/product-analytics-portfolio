@@ -41,4 +41,4 @@ python3 build_dashboard.py
 1. В репозитории → Settings → Pages
 2. Source: Deploy from a branch → Branch: `main`, папка `/ (root)` → Save
 3. Через пару минут дашборд будет доступен по
-   `https://mamasa1d.github.io/<название-репозитория>/03-sql-kpi-dashboard/dashboard.html`
+   `https://mamasa1d.github.io/product-analytics-portfolio/03-sql-kpi-dashboard/dashboard.html`
