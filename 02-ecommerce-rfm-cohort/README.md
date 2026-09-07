@@ -38,17 +38,3 @@ RFM (Recency / Frequency / Monetary, квартильный скоринг) — 
 а конкретно конверсия в повторную покупку: welcome-серия писем и скидка на 2-й заказ в
 первые недели, плюс отдельная реактивация на сегмент At Risk.
 
-## Файлы
-
-- `ecommerce_rfm_cohort.ipynb` — код с выполненными ячейками
-- `sql/rfm_cohort.sql` — SQL отдельным файлом для читаемости
-- `generate_data.py` — генератор данных
-- `data/`, `charts/`
-
-## Запуск
-
-```
-pip install pandas numpy matplotlib jupyter
-python generate_data.py
-jupyter nbconvert --to notebook --execute --inplace ecommerce_rfm_cohort.ipynb
-```
