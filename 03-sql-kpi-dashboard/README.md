@@ -35,10 +35,3 @@ e-commerce: динамика по месяцам, YoY по рынкам, раз�
 pip install pandas plotly
 python3 build_dashboard.py
 ```
-
-## Чтобы дашборд открывался прямо по ссылке (GitHub Pages)
-
-1. В репозитории → Settings → Pages
-2. Source: Deploy from a branch → Branch: `main`, папка `/ (root)` → Save
-3. Через пару минут дашборд будет доступен по
-   `https://mamasa1d.github.io/product-analytics-portfolio/03-sql-kpi-dashboard/dashboard.html`
