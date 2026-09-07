@@ -26,17 +26,3 @@ Plotly.js с CDN, чтобы сам весить килобайты, а не м�
   неоднозначный, нужен incrementality-тест с holdout-группой, чтобы отделить реальный
   прирост от каннибализации обычного спроса.
 
-## Файлы
-
-- `dashboard.html` — готовый дашборд, открывать в браузере
-- `build_dashboard.py` — SQL-запросы → агрегаты → дашборд
-- `sql/kpi_queries.sql` — те же запросы отдельным файлом
-- `data/`, `exports/` — исходные данные и агрегаты
-
-## Запуск
-
-```
-pip install pandas plotly
-python3 build_dashboard.py
-```
-
